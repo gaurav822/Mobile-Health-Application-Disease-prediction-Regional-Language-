@@ -14,7 +14,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DetailsforAppointment"></activity>
+        <activity android:name=".DetailsforAppointment" />
         <activity android:name=".FirstActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,7 +28,7 @@
         <activity android:name=".WelcomeActivity" />
         <activity android:name=".ResetPasswordActivity" />
         <activity android:name=".PatientRegistration" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

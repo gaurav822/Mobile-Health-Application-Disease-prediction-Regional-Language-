@@ -357,6 +357,13 @@ public class WelcomeActivity extends AppCompatActivity implements NavigationView
                 transaction.commit();
                 drawerLayout.closeDrawers();
                 break;
+
+            case R.id.chatbot:
+                ChatBot chatBot= new ChatBot();
+                transaction.replace(R.id.main_body,chatBot);
+                transaction.commit();
+                drawerLayout.closeDrawers();
+                break;
         }
         return false;
     }

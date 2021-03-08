@@ -23,14 +23,19 @@
         android:icon="@drawable/search_doctor"/>
 
     <item
-        android:id="@+id/feedback"
-        android:title="Feedback"
-        android:icon="@drawable/feedbackicon" />
-
-    <item
         android:id="@+id/bookappointment"
         android:title="Book Appointment"
         android:icon="@drawable/appointment"/>
+
+    <item
+        android:id="@+id/chatbot"
+        android:title="Health Bot"
+        android:icon="@drawable/healthbot"/>
+
+    <item
+        android:id="@+id/feedback"
+        android:title="Feedback"
+        android:icon="@drawable/feedbackicon" />
 
 
     <item
