@@ -20,7 +20,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SMART HEALTHCARE APPLICATION"
+        android:text="MOBILE HEALTHCARE APPLICATION"
         android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="#EFF1F3"

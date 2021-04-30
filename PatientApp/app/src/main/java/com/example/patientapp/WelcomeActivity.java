@@ -49,6 +49,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.UUID;
 
+import DiseasePrediction.Symptoms;
+import DiseasePrediction.SymptomsInput;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class WelcomeActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -310,12 +312,8 @@ public class WelcomeActivity extends AppCompatActivity implements NavigationView
                 drawerLayout.closeDrawers();
                 break;
             case R.id.search_disease:
-                searchdisease srch_dis=new searchdisease();
-                Bundle bundle3=new Bundle();
-                bundle3.putString("name",final_name);
-                bundle3.putString("gender",final_gender);
-                srch_dis.setArguments(bundle3);
-                transaction.replace(R.id.main_body,srch_dis);
+                SymptomsInput symp=new SymptomsInput();
+                transaction.replace(R.id.main_body,symp);
                 transaction.commit();
                 drawerLayout.closeDrawers();
                 break;

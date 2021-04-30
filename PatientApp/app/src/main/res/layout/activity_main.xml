@@ -20,7 +20,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="WELCOME PATIENT"
+        android:text="@string/welcomepatient"
         android:textSize="25dp"
         android:gravity="center"
         android:textColor="#2ca7e0"
@@ -32,7 +32,7 @@
         <EditText
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:hint="Email address"
+            android:hint="@string/emailaddr"
             android:textColorHint="#2ca7e0"
             android:inputType="textEmailAddress"
             android:id="@+id/patientEmail"
@@ -46,7 +46,7 @@
     <EditText
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:hint="Password"
+        android:hint="@string/password"
         android:textColorHint="#2ca7e0"
         android:inputType="textPassword"
         android:id="@+id/patientPassword"
@@ -60,7 +60,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Forget Password?"
+        android:text="@string/forgot"
         android:textSize="15dp"
         android:gravity="right"
         android:textColor="#2ca7e0"
@@ -75,7 +75,7 @@
         android:layout_height="60dp"
         android:backgroundTint="#2ca7e0"
         app:cornerRadius="30dp"
-        android:text="Sign IN"
+        android:text="@string/signin"
         android:id="@+id/buttonSignIn"
         style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
         android:onClick="PatientSignIn"
@@ -95,7 +95,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New User?"
+            android:text="@string/newuser"
             android:textColor="#2ca7e0"
             android:textSize="20sp"/>
 
@@ -105,7 +105,7 @@
             android:layout_height="60dp"
             android:backgroundTint="#2ca7e0"
             app:cornerRadius="30dp"
-            android:text="Register"
+            android:text="@string/register"
             style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
             android:onClick="patientSignUp"
             android:padding="15dp"

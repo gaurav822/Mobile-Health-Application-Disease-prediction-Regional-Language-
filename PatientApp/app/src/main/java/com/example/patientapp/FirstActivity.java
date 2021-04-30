@@ -3,6 +3,7 @@ package com.example.patientapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.res.AssetFileDescriptor;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.ImageView;
@@ -26,10 +27,9 @@ public class FirstActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-                Intent dsp=new Intent(FirstActivity.this,MainActivity.class);
+                Intent dsp=new Intent(FirstActivity.this,Chooselanguage.class);
                 startActivity(dsp);
                 finish();
-
             }
         },4000);
     }

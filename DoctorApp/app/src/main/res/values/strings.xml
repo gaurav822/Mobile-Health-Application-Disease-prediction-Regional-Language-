@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DoctorApp</string>
+    <string name="app_name">Doctor</string>
     <string name="err_name">Enter Corret Name</string>
     <string name="err_tel">Enter Correct Phone Number</string>
     <string name="err_email">Enter Correct Email Address</string>

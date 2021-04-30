@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Patient</string>
+
+    <string name="err_name">सहि नाम लेख्नुहोस</string>
+    <string name="err_tel">सहि नंबर लेख्नुहोस</string>
+    <string name="err_email">सहि इमेल लेख्नुहोस</string>
+    <string name="err_password">पासवर्ड मेल खाँदैन</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Sign_in">Sign In</string>
+    <string name="Success">सफलता</string>
+    <string name="Loading">लोड हुँदैछ</string>
+
+    <string name="welcomepatient">स्वागतम् चिकित्सा</string>
+    <string name="emailaddr">इमेल एडरेस </string>
+    <string name="password">पासवोर्ड </string>
+    <string name="forgot">पासवोर्ड  भुल्नुभयो ?</string>
+    <string name="signin">साईन ईन गर्नुहोस्</string>
+    <string name="newuser">नयाँ प्रयोगकर्ता?</string>
+    <string name="register">दर्ता गर्नुहोस्</string>
+
+
+    <string name="registerpage">दर्ता पेज </string>
+    <string name="fullname">पुरा नाम लेख्नुहोस</string>
+    <string name="email">इमेल एडरेस</string>
+    <string name="mobilenumber">मोबाइल नंबर</string>
+    <string name="age">उमेर लेख्नुहोस </string>
+    <string name="repass">फेरी पासवोर्ड लेख्नुहोस</string>
+    <string name="choosegender">लिङ्ग </string>
+    <string name="male">पुरुष </string>
+    <string name="female">महिला</string>
+    <string name="dob">जन्ममिति छान्नुहोस् </string>
+    <string name="fulladdr">पूरा ठेगाना लेख्नुहोस</string>
+    <string name="gotologin">पहिले नै प्रयोगकर्ता?क्लिक गर्नुहोस्</string>
+
+
+    <string name="logginin">लग ईन गर्दै</string>
+    <string name="plsenter">कृपया पूर्ण प्रविष्टि गर्नुहोस्</string>
+    <string name="loginsucc">लगइन सफल</string>
+    <string name="invalidcre">गलत डाटा</string>
+    <string name="authfailed">प्रमाणीकरण असफल भयो</string>
+
+
+    <string name="greet">नमस्कार,</string>
+
+    <string name="entsympt">लक्षणहरु छान्नुहोस् !</string>
+    <string name="preddis">तपाइलाई यो रोग भएको हुन सक्छ </string>
+    <string name="knowdis">रोग थाहा पाउनुहोस </string>
+
+    <string name="selsymtoms">लक्षण छनौट गर्नुहोस्</string>
+
+
+</resources>

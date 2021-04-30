@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void PatientSignIn(View view) {
         pd=new ProgressDialog(MainActivity.this);
-        pd.setMessage("Logging in");
+        pd.setMessage(getResources().getString(R.string.logginin));
         pd.setProgressStyle(ProgressDialog.STYLE_SPINNER);
         pd.setCancelable(false);
         pd.show();
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (useremail.isEmpty() || userpass.isEmpty()) {
             pd.dismiss();
-            Toast.makeText(this, "Please Enter details", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getResources().getString(R.string.plsenter), Toast.LENGTH_SHORT).show();
         }
 
         else{
@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
                             String u_gender = list.get(i).getGend();
                             String u_dob = list.get(i).getDateofbirth();
                             String u_address = list.get(i).getLocationaddress();
-                            Toast.makeText(MainActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MainActivity.this, getResources().getString(R.string.loginsucc), Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(MainActivity.this, WelcomeActivity.class);
                             intent.putExtra("useremail", useremail);
                             intent.putExtra("username", u_name);
@@ -134,14 +134,14 @@ public class MainActivity extends AppCompatActivity {
 
                         pd.dismiss();
 
-                        Toast.makeText(MainActivity.this, "Invalid Credentials", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, getResources().getString(R.string.invalidcre), Toast.LENGTH_SHORT).show();
                     }
 
                 } else {
 
                     pd.dismiss();
 
-                    Toast.makeText(MainActivity.this, "Authentication Failed", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, getResources().getString(R.string.authfailed), Toast.LENGTH_SHORT).show();
 
                 }
 
