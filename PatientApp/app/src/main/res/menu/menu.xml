@@ -28,6 +28,14 @@
         android:icon="@drawable/appointment"/>
 
     <item
+<<<<<<< HEAD
+=======
+        android:id="@+id/chatbot"
+        android:title="Health Bot"
+        android:icon="@drawable/healthbot"/>
+
+    <item
+>>>>>>> a0549934837132ed7e55c93d43fa82331de21d33
         android:id="@+id/feedback"
         android:title="Feedback"
         android:icon="@drawable/feedbackicon" />
